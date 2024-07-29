@@ -95,6 +95,9 @@ header{
   cursor: pointer;
 
 }
+.fa-bars{
+  display: none;
+}
 /* banner style */
 .banner{
   justify-content:space-between;
@@ -119,4 +122,5 @@ header{
 }
 .banner-title :nth-child(3){
 margin-bottom:1.9375rem;
+
 }

@@ -1,0 +1,24 @@
+
+
+
+@media screen and (max-width:576px){
+
+  .navber-links{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+  }
+
+  /* .banner */
+  .banner{
+    flex-direction: column;
+    gap:1.5625rem;
+  }
+  .banner-title h1{
+    font-size:36px;
+  }
+  .banner-images img{
+    width:100%;
+  }
+}
