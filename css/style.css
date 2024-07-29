@@ -124,3 +124,35 @@ header{
 margin-bottom:1.9375rem;
 
 }
+
+/* Fetured Bikes In This Year */
+.fetured-container{
+  width: 78.33%;
+  margin: 0 auto;
+}
+
+/* fetured-title */
+.fetured-title{
+  margin:20px 0;
+}
+.fetured-title h2{
+  color:var(--text-black-color);
+  font-family: poppins,serif;
+  font-size:3rem;
+  font-weight:600;
+}
+.fetured-title >p{
+  font-size: 14px;
+  font-weight:600;
+  color:var(--btn-text-red-orange-color);
+  font-family: poppins,serif;
+}
+/* .fetured-bikes-img */
+.fetured-bikes-img{
+  justify-content:space-between;
+  align-items: center;
+}
+
+.fetured-bikes-img div img{
+  width:100%;
+}

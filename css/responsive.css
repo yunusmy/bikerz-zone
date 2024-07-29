@@ -21,4 +21,9 @@
   .banner-images img{
     width:100%;
   }
+  /* .fetured-bikes-img */
+  .fetured-bikes-img{
+    flex-direction: column;
+    gap:20px;
+  }
 }
