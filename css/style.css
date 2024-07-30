@@ -179,6 +179,12 @@ justify-content:space-between;
 align-items:center;
 gap:10px;
 }
+.card{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+   rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   padding:20px;
+   border-radius: 8px;
+}
 .card>img{
   width: 100%;
 }
@@ -215,6 +221,10 @@ gap:10px;
 }
 .happy-card{
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+   rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   padding:20px;
+   border-radius:8px;
   
 }
 .happy-card >img{
