@@ -210,6 +210,15 @@ gap:10px;
   margin:0 auto;
 }
 
+.happy-client-title h2{
+  color:var(--text-black-color);
+  font-family:poppins, sans-serif;
+  font-size:48px;
+  font-weight:900;
+}
+.happy-client-title h2> span{
+  color:var(--btn-text-red-orange-color);
+}
 .clients-card{
   /* place-content: center; */
   /* place-items: center; */
@@ -229,4 +238,25 @@ gap:10px;
 }
 .happy-card >img{
   width: 50%;
+}
+.happy-card> :nth-child(4){
+  color:var(--bg-blue-teal-color);
+  font-family:poppins,sans-serif;
+  font-size:14px;
+  font-weight:400;
+  margin:10px 0px;
+
+  
+}
+.happy-card> :nth-child(5){
+  color: var(--text-black-color);
+  font-family:poppins,sans-serif;
+  font-size:14px;
+  font-weight:400;
+}
+
+
+.star .fa-star{
+  color:var(--btn-text-red-orange-color);
+  padding: 5px;
 }
