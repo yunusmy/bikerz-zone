@@ -35,4 +35,15 @@
   .clients-card{
     flex-direction: column;
   }
+
+/* footer section */
+/* .footer-container */
+.footer-container,
+.footer-title div ul{
+  flex-direction:column;
+  }
+.footer-title div ul{
+  gap:10px;
+  }
+
 }
